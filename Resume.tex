@@ -1,0 +1,118 @@
+\documentclass[a4paper,11pt]{article}
+
+% Package imports
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{fontawesome5}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+% Page layout
+\geometry{left=1.4cm, top=1.2cm, right=1.4cm, bottom=1.2cm}
+
+% Section formatting
+\titleformat{\section}
+  {\large\scshape\raggedright}{}{0em}{}[\titlerule \vspace{-5pt}]
+
+% Custom commands for entries
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{1mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+% Resume Start
+\begin{document}
+
+% Header
+\begin{center}
+    {\huge\textbf{Sneha Sharma}} \\[3mm] % Adjust spacing below name
+    
+    \small
+    \faPhone\ \href{tel:+91 8120752882}{+91 8120752882} \hspace{10pt} % Phone and Email in one line
+    \faEnvelope\ \href{mailto:snehasharma08012003@gmail.com}{snehasharma08012003@gmail.com} \\[2mm]
+
+    \faGithub\ \href{https://github.com/iamsnehaa}{iamsnehaa}\hspace{10pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/snehehe/}{snehehe} \hspace{10pt}
+    \faTwitter\ \href{https://x.com/snehehee}{snehehee}
+\end{center}
+\vspace{-3mm}
+
+% Skills Section
+\section{\textbf{Skills}}
+\small
+\textbf{Frontend:} TypeScript, React.js, Next.js, Tailwind CSS \\
+\textbf{Backend:} Node.js, Express.js, Prisma \\
+\textbf{Database:} MongoDB, PostgreSQL \\
+\textbf{Tools:} Git, Docker, Version Control
+
+% Experience Section
+\section{\textbf{Experience}}
+\begin{itemize}[leftmargin=*, labelsep=1mm]
+    \resumeSubheading
+        {IBM Skillsbuild(AICTE)}{Remote}
+        {\textbf{Data Analytics Intern}}{Jun 2023 – July 2023}
+        \resumeItem{Analyzing Dataset and gained knowledge about Data Visualization.}
+        \resumeItem{Worked with libraries such as Numpy and Pandas.}
+
+    
+
+    \resumeSubheading
+        {Content Head - Microsoft Learn Student Ambassador}{LNCTU}
+        {\textbf{Content Writer, Event Host}}{July 2023 – Present}
+        \resumeItem{Organized and hosted multiple technical events and workshops.}
+        \resumeItem{Created technical content, improving engagement and reach.}
+        \resumeItem{Led collaborations and networking initiatives.}
+\end{itemize}
+
+% Projects Section
+\section{\textbf{Projects}}
+\begin{itemize}[leftmargin=*, labelsep=1mm]
+    \resumeSubheading
+        {Dukaan}{}
+        {}{}
+        \resumeItem{Ecommerce API for Shopaholics and fashionista's to find variety of clothings at a place.}
+        \resumeItem{Tech Stack: React.js, Node.js, Tailwind CSS, Mongo DB}
+        
+
+    \resumeSubheading
+        {Far from Home (Farm for home)}{}
+        {}{}
+        \resumeItem{Designed and implemented a website to connect farmers to the consumers directly to avoid intermediaries.}
+        \resumeItem{Tech Stack: React.js, Node.js, Tailwind CSS, Mongo DB}
+
+    \resumeSubheading
+        {Organza}{}
+        {}{}
+        \resumeItem{Ecommerce API to provide a variety of organic products for household purposes and to provide fresh veggies and fruits.}
+        \resumeItem{Tech Stack: Next,js, Tailwind CSS, PostgreSQL}
+
+     \resumeSubheading
+        {Mini Projects}{}
+        {}{}
+        \resumeItem{The HomePage built through Next.js}
+        \resumeItem{Series of mini projects like qr code generator, weather detector,etc.}
+        \resumeItem{Tech Stack: HTML, CSS JavaScript (Next.js)}
+\end{itemize}
+
+% Education Section
+\section{\textbf{Education}}
+\begin{itemize}[leftmargin=*, labelsep=1mm]
+    \resumeSubheading
+        {LNCT University}{Bhopal, India}
+        {B.Tech in Computer Science Engineering 
+        CGPA: 8.14/10}{2021-2025}
+    \resumeSubheading
+        {Carmel Convent School}{Gwalior, India}
+        {X|XII (CBSE)}{2019|2021}
+       
+\end{itemize}
+
+\end{document}
